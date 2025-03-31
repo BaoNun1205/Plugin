@@ -96,9 +96,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CalculateUpdateClass.cs" />
     <Compile Include="CreateStudentOnClassCreation.cs" />
     <Compile Include="DeleteChildRecords.cs" />
+    <Compile Include="PL_E0002_01.cs" />
+    <Compile Include="Pl_E0002_02.cs" />
+    <Compile Include="Pl_E0006_01.cs" />
     <Compile Include="SetDefaultStudentCount.cs" />
+    <Compile Include="UnsecureConfiguration.cs" />
     <Compile Include="UpdateClassStudentCount.cs" />
     <Compile Include="UpdatePlugin.cs" />
     <Compile Include="CreatePlugin.cs" />

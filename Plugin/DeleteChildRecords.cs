@@ -64,7 +64,6 @@ namespace Plugin
                 {
                     Guid studentId = student.Id;
 
-                    // 🗑 Xóa sinh viên
                     service.Delete("ksvc_tra_student", studentId);
                     tracingService.Trace($"Deleted Student ID: {studentId}");
                 }
